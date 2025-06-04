@@ -1,0 +1,97 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="70" fill="#2c3e50"/>
+  <text x="30" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">Session History</text>
+  <circle cx="1120" cy="35" r="20" fill="#95a5a6"/>
+  <text x="1120" y="40" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">MT</text>
+  
+  <!-- Navigation -->
+  <rect x="0" y="70" width="200" height="730" fill="#34495e"/>
+  <text x="20" y="110" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Dashboard</text>
+  <text x="20" y="140" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Find Students</text>
+  <text x="20" y="170" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">My Calendar</text>
+  <text x="20" y="200" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Session History</text>
+  <text x="20" y="230" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Messages</text>
+  <text x="20" y="260" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Profile</text>
+  
+  <!-- Summary Stats -->
+  <rect x="220" y="90" width="300" height="100" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  <text x="240" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Total Sessions</text>
+  <text x="240" y="155" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#3498db">23</text>
+  <text x="240" y="175" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Since joining CareCred</text>
+  
+  <rect x="540" y="90" width="300" height="100" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  <text x="560" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Hours of Help Received</text>
+  <text x="560" y="155" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#27ae60">47.5</text>
+  <text x="560" y="175" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Average 2.1 hours per session</text>
+  
+  <rect x="860" y="90" width="300" height="100" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  <text x="880" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Average Rating Given</text>
+  <text x="880" y="155" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#f39c12">4.7 ★</text>
+  <text x="880" y="175" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Based on 23 reviews</text>
+  
+  <!-- Filters -->
+  <rect x="220" y="210" width="940" height="50" fill="white" stroke="#ecf0f1" stroke-width="1" rx="5"/>
+  <text x="240" y="235" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Filter by:</text>
+  <rect x="320" y="220" width="100" height="30" fill="#3498db" rx="5"/>
+  <text x="370" y="240" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">All Sessions</text>
+  <rect x="440" y="220" width="80" height="30" fill="#ecf0f1" rx="5"/>
+  <text x="480" y="240" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="middle">This Month</text>
+  <rect x="540" y="220" width="80" height="30" fill="#ecf0f1" rx="5"/>
+  <text x="580" y="240" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="middle">This Year</text>
+  
+  <!-- Session List Header -->
+  <rect x="220" y="280" width="940" height="40" fill="#ecf0f1"/>
+  <text x="240" y="305" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Date</text>
+  <text x="340" y="305" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Student</text>
+  <text x="500" y="305" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Service Type</text>
+  <text x="680" y="305" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Duration</text>
+  <text x="780" y="305" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Your Rating</text>
+  <text x="880" y="305" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Student Rating</text>
+  <text x="1000" y="305" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Actions</text>
+  
+  <!-- Session Row 1 -->
+  <rect x="220" y="320" width="940" height="50" fill="white"/>
+  <text x="240" y="350" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Mar 15, 2025</text>
+  <circle cx="360" cy="345" r="12" fill="#3498db"/>
+  <text x="360" y="350" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">JS</text>
+  <text x="380" y="350" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">John Smith</text>
+  <text x="500" y="350" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Grocery shopping</text>
+  <text x="680" y="350" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">2.25 hours</text>
+  <text x="780" y="350" font-family="Arial, sans-serif" font-size="12" fill="#f39c12">5 ★</text>
+  <text x="880" y="350" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">4.8 ★</text>
+  <text x="1000" y="350" font-family="Arial, sans-serif" font-size="10" fill="#3498db">View Details</text>
+  
+  <!-- Session Row 2 -->
+  <rect x="220" y="370" width="940" height="50" fill="#f8f9fa"/>
+  <text x="240" y="400" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Mar 10, 2025</text>
+  <circle cx="360" cy="395" r="12" fill="#e74c3c"/>
+  <text x="360" y="400" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">RC</text>
+  <text x="380" y="400" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Robert Chen</text>
+  <text x="500" y="400" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Technology help</text>
+  <text x="680" y="400" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">1.5 hours</text>
+  <text x="780" y="400" font-family="Arial, sans-serif" font-size="12" fill="#f39c12">5 ★</text>
+  <text x="880" y="400" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">4.9 ★</text>
+  <text x="1000" y="400" font-family="Arial, sans-serif" font-size="10" fill="#3498db">View Details</text>
+  
+  <!-- Session Row 3 -->
+  <rect x="220" y="420" width="940" height="50" fill="white"/>
+  <text x="240" y="450" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Mar 5, 2025</text>
+  <circle cx="360" cy="445" r="12" fill="#27ae60"/>
+  <text x="360" y="450" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">ES</text>
+  <text x="380" y="450" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Emily Smith</text>
+  <text x="500" y="450" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Companionship</text>
+  <text x="680" y="450" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">3.0 hours</text>
+  <text x="780" y="450" font-family="Arial, sans-serif" font-size="12" fill="#f39c12">4 ★</text>
+  <text x="880" y="450" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">4.6 ★</text>
+  <text x="1000" y="450" font-family="Arial, sans-serif" font-size="10" fill="#3498db">View Details</text>
+  
+  <!-- Pagination -->
+  <rect x="220" y="720" width="940" height="50" fill="#ecf0f1"/>
+  <text x="240" y="745" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Showing 1-3 of 23 sessions</text>
+  <rect x="1000" y="730" width="60" height="30" fill="#3498db" rx="5"/>
+  <text x="1030" y="750" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Next</text>
+</svg>

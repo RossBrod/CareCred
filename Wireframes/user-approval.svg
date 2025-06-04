@@ -1,0 +1,97 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="70" fill="#2c3e50"/>
+  <text x="30" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">User Approval Dashboard</text>
+  <circle cx="1120" cy="35" r="20" fill="#95a5a6"/>
+  <text x="1120" y="40" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">AD</text>
+  
+  <!-- Navigation -->
+  <rect x="0" y="70" width="200" height="730" fill="#34495e"/>
+  <text x="20" y="110" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Dashboard</text>
+  <text x="20" y="140" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">User Management</text>
+  <text x="20" y="170" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Session Monitor</text>
+  <text x="20" y="200" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Credit Management</text>
+  <text x="20" y="230" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Reports</text>
+  
+  <!-- Pending Approvals Summary -->
+  <rect x="220" y="90" width="960" height="80" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  <text x="240" y="120" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Pending User Approvals</text>
+  <text x="240" y="145" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">7 users awaiting approval • 3 students, 4 seniors</text>
+  <rect x="1050" y="110" width="100" height="30" fill="#3498db" rx="5"/>
+  <text x="1100" y="130" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Bulk Actions</text>
+  
+  <!-- Filter Tabs -->
+  <rect x="220" y="190" width="960" height="40" fill="white" stroke="#ecf0f1" stroke-width="1" rx="5"/>
+  <rect x="240" y="200" width="80" height="20" fill="#e74c3c" rx="10"/>
+  <text x="280" y="214" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Pending (7)</text>
+  <text x="350" y="214" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Approved</text>
+  <text x="420" y="214" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Rejected</text>
+  <text x="490" y="214" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">All Users</text>
+  
+  <!-- User Approval Card 1 -->
+  <rect x="220" y="250" width="960" height="120" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  <circle cx="270" cy="300" r="25" fill="#3498db"/>
+  <text x="270" y="305" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">JS</text>
+  
+  <text x="320" y="275" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">John Smith</text>
+  <text x="320" y="295" font-family="Arial, sans-serif" font-size="14" fill="#3498db" font-weight="bold">Student • UC Berkeley</text>
+  <text x="320" y="315" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">📧 john.smith@berkeley.edu • 📱 (555) 123-4567</text>
+  <text x="320" y="335" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">✓ Background check completed • ✓ Student verification confirmed</text>
+  <text x="320" y="355" font-family="Arial, sans-serif" font-size="11" fill="#95a5a6">Applied: March 15, 2025 • Bio: Computer Science major looking to help seniors with technology</text>
+  
+  <rect x="950" y="270" width="80" height="30" fill="#27ae60" rx="5"/>
+  <text x="990" y="290" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Approve</text>
+  <rect x="1040" y="270" width="60" height="30" fill="#e74c3c" rx="5"/>
+  <text x="1070" y="290" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Reject</text>
+  <rect x="1110" y="270" width="50" height="30" fill="#95a5a6" rx="5"/>
+  <text x="1135" y="290" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">View</text>
+  
+  <!-- User Approval Card 2 -->
+  <rect x="220" y="380" width="960" height="120" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  <circle cx="270" cy="430" r="25" fill="#e74c3c"/>
+  <text x="270" y="435" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">MJ</text>
+  
+  <text x="320" y="405" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Mary Johnson</text>
+  <text x="320" y="425" font-family="Arial, sans-serif" font-size="14" fill="#e74c3c" font-weight="bold">Senior • Age 73</text>
+  <text x="320" y="445" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">📧 mary.johnson@gmail.com • 📱 (555) 987-6543</text>
+  <text x="320" y="465" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">✓ Address verified • ✓ Medical eligibility confirmed</text>
+  <text x="320" y="485" font-family="Arial, sans-serif" font-size="11" fill="#95a5a6">Applied: March 14, 2025 • Needs: Light housekeeping, grocery shopping, companionship</text>
+  
+  <rect x="950" y="400" width="80" height="30" fill="#27ae60" rx="5"/>
+  <text x="990" y="420" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Approve</text>
+  <rect x="1040" y="400" width="60" height="30" fill="#e74c3c" rx="5"/>
+  <text x="1070" y="420" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Reject</text>
+  <rect x="1110" y="400" width="50" height="30" fill="#95a5a6" rx="5"/>
+  <text x="1135" y="420" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">View</text>
+  
+  <!-- User Approval Card 3 - Pending Background Check -->
+  <rect x="220" y="510" width="960" height="120" fill="#fff3cd" stroke="#ffc107" stroke-width="1" rx="10"/>
+  <circle cx="270" cy="560" r="25" fill="#f39c12"/>
+  <text x="270" y="565" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">RC</text>
+  
+  <text x="320" y="535" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Robert Chen</text>
+  <text x="320" y="555" font-family="Arial, sans-serif" font-size="14" fill="#3498db" font-weight="bold">Student • Stanford University</text>
+  <text x="320" y="575" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">📧 rchen@stanford.edu • 📱 (555) 456-7890</text>
+  <text x="320" y="595" font-family="Arial, sans-serif" font-size="12" fill="#f39c12">⏳ Background check in progress • ✓ Student verification confirmed</text>
+  <text x="320" y="615" font-family="Arial, sans-serif" font-size="11" fill="#95a5a6">Applied: March 13, 2025 • Bio: Engineering student interested in helping with technology &amp; home repairs</text>
+  
+  <rect x="950" y="530" width="80" height="30" fill="#95a5a6" rx="5"/>
+  <text x="990" y="550" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Pending</text>
+  <rect x="1040" y="530" width="60" height="30" fill="#e74c3c" rx="5"/>
+  <text x="1070" y="550" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Reject</text>
+  <rect x="1110" y="530" width="50" height="30" fill="#95a5a6" rx="5"/>
+  <text x="1135" y="550" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">View</text>
+  
+  <!-- Action Summary -->
+  <rect x="220" y="650" width="960" height="50" fill="#ecf0f1"/>
+  <text x="240" y="675" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Quick Actions:</text>
+  <rect x="350" y="660" width="120" height="30" fill="#27ae60" rx="5"/>
+  <text x="410" y="680" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Approve All Ready</text>
+  <rect x="480" y="660" width="100" height="30" fill="#3498db" rx="5"/>
+  <text x="530" y="680" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Export List</text>
+  <rect x="590" y="660" width="120" height="30" fill="#f39c12" rx="5"/>
+  <text x="650" y="680" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Send Reminders</text>
+</svg>

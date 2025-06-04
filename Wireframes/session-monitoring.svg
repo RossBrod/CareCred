@@ -1,0 +1,168 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="70" fill="#2c3e50"/>
+  <text x="30" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">Session Monitoring Dashboard</text>
+  <circle cx="1120" cy="35" r="20" fill="#95a5a6"/>
+  <text x="1120" y="40" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">AD</text>
+  
+  <!-- Navigation -->
+  <rect x="0" y="70" width="200" height="730" fill="#34495e"/>
+  <text x="20" y="110" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Dashboard</text>
+  <text x="20" y="140" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">User Management</text>
+  <text x="20" y="170" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Session Monitor</text>
+  <text x="20" y="200" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Credit Management</text>
+  <text x="20" y="230" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Reports</text>
+  
+  <!-- Real-time Stats -->
+  <rect x="220" y="90" width="240" height="100" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  <text x="240" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Active Sessions</text>
+  <text x="240" y="155" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#27ae60">18</text>
+  <text x="240" y="175" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Currently in progress</text>
+  
+  <rect x="480" y="90" width="240" height="100" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  <text x="500" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Pending Check-ins</text>
+  <text x="500" y="155" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#f39c12">7</text>
+  <text x="500" y="175" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Scheduled but not started</text>
+  
+  <rect x="740" y="90" width="220" height="100" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  <text x="760" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Alerts</text>
+  <text x="760" y="155" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#e74c3c">3</text>
+  <text x="760" y="175" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Need attention</text>
+  
+  <rect x="980" y="90" width="200" height="100" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  <text x="1000" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Today's Total</text>
+  <text x="1000" y="155" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#3498db">42</text>
+  <text x="1000" y="175" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Sessions scheduled</text>
+  
+  <!-- Filter Tabs -->
+  <rect x="220" y="210" width="960" height="40" fill="white" stroke="#ecf0f1" stroke-width="1" rx="5"/>
+  <rect x="240" y="220" width="100" height="20" fill="#27ae60" rx="10"/>
+  <text x="290" y="234" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Active Now (18)</text>
+  <text x="370" y="234" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Pending (7)</text>
+  <text x="450" y="234" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Alerts (3)</text>
+  <text x="510" y="234" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Completed Today</text>
+  <text x="620" y="234" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">All Sessions</text>
+  
+  <!-- Active Sessions List -->
+  <rect x="220" y="270" width="960" height="40" fill="#ecf0f1"/>
+  <text x="240" y="295" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Student</text>
+  <text x="380" y="295" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Senior</text>
+  <text x="520" y="295" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Started</text>
+  <text x="620" y="295" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Duration</text>
+  <text x="720" y="295" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Location Status</text>
+  <text x="880" y="295" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Blockchain</text>
+  <text x="1000" y="295" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Actions</text>
+  
+  <!-- Session Row 1 - Active -->
+  <rect x="220" y="310" width="960" height="50" fill="white"/>
+  <circle cx="260" cy="325" r="12" fill="#3498db"/>
+  <text x="260" y="330" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">JS</text>
+  <text x="280" y="330" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">John Smith</text>
+  <text x="280" y="345" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">UC Berkeley</text>
+  
+  <circle cx="400" cy="325" r="12" fill="#e74c3c"/>
+  <text x="400" y="330" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">MT</text>
+  <text x="420" y="330" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Margaret T.</text>
+  <text x="420" y="345" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Grocery help</text>
+  
+  <text x="520" y="330" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">2:15 PM</text>
+  <text x="520" y="345" font-family="Arial, sans-serif" font-size="10" fill="#27ae60">45 min ago</text>
+  
+  <text x="620" y="330" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">1h 45m</text>
+  <text x="620" y="345" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Est. 2h total</text>
+  
+  <circle cx="740" cy="335" r="5" fill="#27ae60"/>
+  <text x="755" y="330" font-family="Arial, sans-serif" font-size="11" fill="#27ae60">GPS Verified</text>
+  <text x="755" y="345" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">123 Oak St</text>
+  
+  <circle cx="900" cy="335" r="5" fill="#27ae60"/>
+  <text x="915" y="330" font-family="Arial, sans-serif" font-size="11" fill="#27ae60">Synced</text>
+  <text x="915" y="345" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Block #7291</text>
+  
+  <text x="1020" y="335" font-family="Arial, sans-serif" font-size="10" fill="#3498db">Monitor</text>
+  
+  <!-- Session Row 2 - Alert -->
+  <rect x="220" y="360" width="960" height="50" fill="#ffeaa7"/>
+  <circle cx="260" cy="375" r="12" fill="#e74c3c"/>
+  <text x="260" y="380" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">ES</text>
+  <text x="280" y="380" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Emily Smith</text>
+  <text x="280" y="395" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Stanford</text>
+  
+  <circle cx="400" cy="375" r="12" fill="#3498db"/>
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">HW</text>
+  <text x="420" y="380" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Helen Wilson</text>
+  <text x="420" y="395" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Companionship</text>
+  
+  <text x="520" y="380" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">1:30 PM</text>
+  <text x="520" y="395" font-family="Arial, sans-serif" font-size="10" fill="#f39c12">1h 30m ago</text>
+  
+  <text x="620" y="380" font-family="Arial, sans-serif" font-size="12" fill="#f39c12">2h 30m</text>
+  <text x="620" y="395" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">Overtime!</text>
+  
+  <circle cx="740" cy="385" r="5" fill="#f39c12"/>
+  <text x="755" y="380" font-family="Arial, sans-serif" font-size="11" fill="#f39c12">GPS Drift</text>
+  <text x="755" y="395" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">456 Elm Ave</text>
+  
+  <circle cx="900" cy="385" r="5" fill="#f39c12"/>
+  <text x="915" y="380" font-family="Arial, sans-serif" font-size="11" fill="#f39c12">Pending</text>
+  <text x="915" y="395" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Update needed</text>
+  
+  <text x="1020" y="385" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">Alert</text>
+  
+  <!-- Session Row 3 - Normal -->
+  <rect x="220" y="410" width="960" height="50" fill="#f8f9fa"/>
+  <circle cx="260" cy="425" r="12" fill="#27ae60"/>
+  <text x="260" y="430" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">RC</text>
+  <text x="280" y="430" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Robert Chen</text>
+  <text x="280" y="445" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Stanford</text>
+  
+  <circle cx="400" cy="425" r="12" fill="#f39c12"/>
+  <text x="400" y="430" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">DW</text>
+  <text x="420" y="430" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Dorothy W.</text>
+  <text x="420" y="445" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Tech support</text>
+  
+  <text x="520" y="430" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">3:00 PM</text>
+  <text x="520" y="445" font-family="Arial, sans-serif" font-size="10" fill="#27ae60">15 min ago</text>
+  
+  <text x="620" y="430" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">0h 15m</text>
+  <text x="620" y="445" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Est. 1.5h total</text>
+  
+  <circle cx="740" cy="435" r="5" fill="#27ae60"/>
+  <text x="755" y="430" font-family="Arial, sans-serif" font-size="11" fill="#27ae60">GPS Verified</text>
+  <text x="755" y="445" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">789 Pine St</text>
+  
+  <circle cx="900" cy="435" r="5" fill="#27ae60"/>
+  <text x="915" y="430" font-family="Arial, sans-serif" font-size="11" fill="#27ae60">Synced</text>
+  <text x="915" y="445" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Block #7292</text>
+  
+  <text x="1020" y="435" font-family="Arial, sans-serif" font-size="10" fill="#3498db">Monitor</text>
+  
+  <!-- Alert Panel -->
+  <rect x="220" y="480" width="960" height="120" fill="white" stroke="#e74c3c" stroke-width="1" rx="10"/>
+  <text x="240" y="510" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e74c3c">⚠️ System Alerts</text>
+  
+  <rect x="240" y="520" width="920" height="30" fill="#ffeaa7" rx="5"/>
+  <text x="250" y="540" font-family="Arial, sans-serif" font-size="12" fill="#d63031">HIGH: Emily Smith session exceeds expected duration by 30+ minutes</text>
+  <rect x="1080" y="525" width="60" height="20" fill="#e74c3c" rx="3"/>
+  <text x="1110" y="538" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Contact</text>
+  
+  <rect x="240" y="555" width="920" height="30" fill="#fd79a8" rx="5"/>
+  <text x="250" y="575" font-family="Arial, sans-serif" font-size="12" fill="#2d3436">MEDIUM: GPS location drift detected for session #1247 - investigating</text>
+  <rect x="1080" y="560" width="60" height="20" fill="#f39c12" rx="3"/>
+  <text x="1110" y="573" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Review</text>
+  
+  <!-- Quick Actions -->
+  <rect x="220" y="620" width="960" height="60" fill="#ecf0f1"/>
+  <text x="240" y="645" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Quick Actions:</text>
+  <rect x="360" y="635" width="120" height="25" fill="#3498db" rx="3"/>
+  <text x="420" y="650" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Refresh Status</text>
+  <rect x="490" y="635" width="120" height="25" fill="#e74c3c" rx="3"/>
+  <text x="550" y="650" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Emergency Alert</text>
+  <rect x="620" y="635" width="100" height="25" fill="#27ae60" rx="3"/>
+  <text x="670" y="650" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Export Log</text>
+  <rect x="730" y="635" width="120" height="25" fill="#f39c12" rx="3"/>
+  <text x="790" y="650" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Generate Report</text>
+</svg>

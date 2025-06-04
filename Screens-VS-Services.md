@@ -5,7 +5,7 @@
 ### Student-Facing Screens
 - **[Landing Page](Wireframes/landing-page.svg)**: Initial registration and sign-up entry point
 - **[Student Dashboard](Wireframes/student-dashboard.svg)**: Main student interface with profile setup, session management
-- **Session Confirmation Screen**: Confirm session completion *(wireframe missing)*
+- **[Session Confirmation Screen](Wireframes/session-confirmation.svg)**: Confirm session completion
 - **[Credit Dashboard](Wireframes/credit-dashboard.svg)**: View earned credits and transaction history
 - **[Mobile Dashboard](Wireframes/mobile-dashboard.svg)**: Mobile-optimized interface for messaging and quick actions
 - **[GPS Check-in Screen](Wireframes/gps-checkin.svg)**: Location verification for session start/end
@@ -13,16 +13,16 @@
 ### Senior-Facing Screens
 - **[Landing Page](Wireframes/landing-page.svg)**: Initial registration and sign-up entry point
 - **[Senior Dashboard](Wireframes/senior-dashboard.svg)**: Main senior interface with profile setup and session management
-- **Session Confirmation Screen**: Confirm session completion and rate experience *(wireframe missing)*
+- **[Session Confirmation Screen](Wireframes/session-confirmation.svg)**: Confirm session completion and rate experience
 - **[Mobile Dashboard](Wireframes/mobile-dashboard.svg)**: Mobile-optimized messaging and communication interface
-- **Session History Screen**: View past sessions and ratings given *(wireframe missing)*
+- **[Session History Screen](Wireframes/session-history.svg)**: View past sessions and ratings given
 
 ### Admin-Facing Screens
 - **[Admin Dashboard](Wireframes/admin-dashboard.svg)**: Overview of system activity
-- **User Approval Screen**: Review and approve new registrations *(wireframe missing)*
-- **Manual Matching Interface**: Facilitate matches between students and seniors *(wireframe missing)*
-- **Session Monitoring Screen**: View ongoing and completed sessions *(wireframe missing)*
-- **Credit Disbursement Screen**: Approve credit transactions *(wireframe missing)*
+- **[User Approval Screen](Wireframes/user-approval.svg)**: Review and approve new registrations
+- **[Manual Matching Interface](Wireframes/manual-matching.svg)**: Facilitate matches between students and seniors
+- **[Session Monitoring Screen](Wireframes/session-monitoring.svg)**: View ongoing and completed sessions
+- **[Credit Disbursement Screen](Wireframes/credit-disbursement.svg)**: Approve credit transactions
 ---
 ## Backend-Only Services (No User Interface)
 

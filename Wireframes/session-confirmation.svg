@@ -1,0 +1,53 @@
+<svg width="400" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mobile Background -->
+  <rect width="400" height="700" fill="#f8f9fa" rx="20"/>
+  
+  <!-- Status Bar -->
+  <rect x="0" y="0" width="400" height="40" fill="#2c3e50" rx="20 20 0 0"/>
+  <text x="20" y="25" font-family="Arial, sans-serif" font-size="12" fill="white">9:41 AM</text>
+  <text x="180" y="25" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">CareCred</text>
+  <text x="350" y="25" font-family="Arial, sans-serif" font-size="12" fill="white">100%</text>
+  
+  <!-- Header -->
+  <rect x="0" y="40" width="400" height="60" fill="#27ae60"/>
+  <text x="20" y="75" font-family="Arial, sans-serif" font-size="16" fill="white">←</text>
+  <text x="50" y="75" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Session Complete</text>
+  
+  <!-- Session Summary -->
+  <rect x="20" y="120" width="360" height="120" fill="white" stroke="#27ae60" stroke-width="2" rx="10"/>
+  <circle cx="60" cy="160" r="20" fill="#e74c3c"/>
+  <text x="60" y="165" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">MT</text>
+  <text x="100" y="150" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Margaret Thompson</text>
+  <text x="100" y="170" font-family="Arial, sans-serif" font-size="14" fill="#27ae60" font-weight="bold">Session Completed ✓</text>
+  <text x="100" y="190" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">2:00 PM - 4:15 PM (2.25 hours)</text>
+  <text x="100" y="210" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Grocery shopping &amp; companionship</text>
+  <text x="100" y="225" font-family="Arial, sans-serif" font-size="11" fill="#95a5a6">📍 123 Oak Street</text>
+  
+  <!-- Credit Earned -->
+  <rect x="20" y="260" width="360" height="80" fill="#27ae60" opacity="0.1" rx="10"/>
+  <text x="200" y="290" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#27ae60" text-anchor="middle">Credits Earned</text>
+  <text x="200" y="320" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#27ae60" text-anchor="middle">$33.75</text>
+  
+  <!-- Rating Section -->
+  <text x="20" y="380" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Rate Your Experience</text>
+  
+  <!-- Star Rating -->
+  <rect x="20" y="390" width="360" height="60" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  <text x="40" y="415" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">How was your session with Margaret?</text>
+  <text x="80" y="435" font-family="Arial, sans-serif" font-size="24" fill="#f39c12">★ ★ ★ ★ ★</text>
+  <text x="260" y="435" font-family="Arial, sans-serif" font-size="14" fill="#27ae60" font-weight="bold">Excellent</text>
+  
+  <!-- Comments -->
+  <text x="20" y="480" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Additional Comments (Optional)</text>
+  <rect x="20" y="490" width="360" height="80" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  <text x="30" y="515" font-family="Arial, sans-serif" font-size="12" fill="#95a5a6">Margaret was wonderful! Very kind and</text>
+  <text x="30" y="535" font-family="Arial, sans-serif" font-size="12" fill="#95a5a6">appreciative. The grocery shopping went</text>
+  <text x="30" y="555" font-family="Arial, sans-serif" font-size="12" fill="#95a5a6">smoothly and we had great conversation.</text>
+  
+  <!-- Submit Button -->
+  <rect x="40" y="590" width="320" height="50" fill="#27ae60" rx="25"/>
+  <text x="200" y="620" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Submit &amp; Record on Blockchain</text>
+  
+  <!-- Footer Note -->
+  <text x="200" y="660" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6" text-anchor="middle">This session will be permanently recorded for credit verification</text>
+</svg>
