@@ -111,6 +111,9 @@ class CreditTransaction(BaseModel):
     # Blockchain verification
     blockchain_hash: Optional[str] = None
     blockchain_verified: bool = False
+    blockchain_block_number: Optional[int] = None
+    blockchain_confirmations: int = Field(default=0)
+    credit_eligibility_verified: bool = False
     
     # Disbursement specific fields
     disbursement_type: Optional[DisbursementType] = None

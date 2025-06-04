@@ -99,7 +99,14 @@ class Session(BaseModel):
     # Blockchain and verification
     blockchain_transaction_hash: Optional[str] = None
     blockchain_block_number: Optional[int] = None
+    blockchain_confirmations: int = Field(default=0)
     verification_status: str = Field(default="pending")
+    signature_request_id: Optional[str] = None
+    student_signature: Optional[str] = None
+    senior_signature: Optional[str] = None
+    session_hash: Optional[str] = None
+    blockchain_verified: bool = False
+    blockchain_verified_at: Optional[datetime] = None
     
     # Credit calculation
     credit_amount: Optional[float] = Field(None, ge=0.0)
