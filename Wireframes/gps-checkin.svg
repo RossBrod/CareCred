@@ -18,7 +18,7 @@
   <text x="60" y="155" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">MT</text>
   <text x="100" y="145" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Margaret Thompson</text>
   <text x="100" y="165" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Today, 2:00 PM - 4:00 PM</text>
-  <text x="100" y="185" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Grocery shopping & companionship</text>
+  <text x="100" y="185" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Grocery shopping &amp; companionship</text>
   <text x="100" y="205" font-family="Arial, sans-serif" font-size="12" fill="#95a5a6">📍 123 Oak Street, Apartment 4B</text>
   
   <!-- Map Placeholder -->
@@ -40,7 +40,7 @@
   
   <!-- Check-in Button -->
   <rect x="40" y="560" width="320" height="60" fill="#27ae60" rx="30"/>
-  <text x="200" y="600" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">Check In & Start Session</text>
+  <text x="200" y="600" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">Check In &amp; Start Session</text>
   
   <!-- Safety Info -->
   <rect x="20" y="640" width="360" height="40" fill="#f39c12" opacity="0.1" rx="5"/>

@@ -55,7 +55,7 @@
   <circle cx="270" cy="440" r="15" fill="#3498db"/>
   <text x="300" y="425" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Margaret Thompson</text>
   <text x="300" y="445" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Today, 2:00 PM - 4:00 PM</text>
-  <text x="300" y="460" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Grocery shopping & companionship</text>
+  <text x="300" y="460" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Grocery shopping &amp; companionship</text>
   <rect x="680" y="425" width="80" height="30" fill="#27ae60" rx="3"/>
   <text x="720" y="445" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Check In</text>
   
@@ -64,7 +64,7 @@
   <circle cx="270" cy="530" r="15" fill="#95a5a6"/>
   <text x="300" y="515" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Robert Chen</text>
   <text x="300" y="535" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Tomorrow, 10:00 AM - 12:00 PM</text>
-  <text x="300" y="550" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Technology help & computer setup</text>
+  <text x="300" y="550" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Technology help &amp; computer setup</text>
   <rect x="680" y="515" width="80" height="30" fill="#95a5a6" rx="3"/>
   <text x="720" y="535" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Scheduled</text>
   

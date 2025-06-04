@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(xmllint:*)",
+      "Bash(grep:*)",
+      "Bash(python3:*)",
+      "Bash(sed:*)"
     ],
     "deny": []
   }
