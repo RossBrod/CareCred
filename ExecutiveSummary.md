@@ -1,11 +1,11 @@
-# CareCred: Executive Summary
+# Project Codename "CareCred": Executive Summary
 
 CareCred is an innovative platform connecting college students with senior citizens to provide assistance in exchange for tuition and housing credits. The platform leverages blockchain technology for transparent time logging and offers a comprehensive solution for student financial support while addressing senior care needs.
 
 ## Table of Contents
-
+- [Business executive summary](ExecutiveSummaryBusinessSide.md) Business executive summary with cost, GTM and ROI
+- [User Journey](UserJourney.md) - Complete user experience flows for students, seniors, and administrators based on Banya conversation on 05/31/2025
 - [MVP Analysis](MVPAnaysis.md) - Minimum viable product definition and phased implementation strategy
-- [User Journey](UserJourney.md) - Complete user experience flows for students, seniors, and administrators  
 - [Services Architecture](Services.md) - Core technical services and system modules
 - [Credit Tracking](CreditTrackingSpecification.md) - Hour-to-credit conversion and tracking system
 - [Scheduling System](SchedulingSystemSpecification.md) - Availability management and session coordination
@@ -60,8 +60,8 @@ The entire CareCred platform will be developed using AI-driven development with 
 
 The CareCred project represents a total financial commitment of $25,000 from the Founder, covering all development phases from MVP through enhanced features and initial operational costs. To initiate the project and begin immediate development work, a $5,000 retainer is required to start, ensuring dedicated resources and priority scheduling for the AI-driven development process. This investment structure aligns with the phased implementation approach, allowing for milestone-based progress evaluation and continued funding as the platform demonstrates market validation and technical success.
 
-CodeCloud, the development partner, is a strong believer in the CareCred vision and its potential to create meaningful social impact while addressing critical societal challenges. In recognition of this shared mission and the project's transformative potential, CodeCloud has agreed to provide development services at the significantly reduced rate outlined above in exchange for a 5% equity stake in the company. This partnership structure demonstrates mutual commitment to the project's success and aligns both parties' interests in building a sustainable, impactful platform that benefits students, seniors, and the broader community.
+CodeCloud, the development partner, is a strong believer in the CareCred vision and its potential to create meaningful social impact while addressing critical societal challenges. In recognition of this shared mission and the project's transformative potential, CodeCloud has agreed to provide development services at the significantly reduced rate outlined above in exchange for a **10% equity** stake in the company. This partnership structure demonstrates mutual commitment to the project's success and aligns both parties' interests in building a sustainable, impactful platform that benefits students, seniors, and the broader community.
 
 ## Time spent thus far: 
-- 1.5hrs
+- CTO: Analysis and propting: 1.5hrs
 - 500K Claude Code tokens = $5.78
