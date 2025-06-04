@@ -18,7 +18,7 @@
 - **Session History Screen**: View past sessions and ratings given
 
 ### Admin-Facing Screens
-- **[Admin Dashboard](Wireframes\admin-dashboard.svg)**: Overview of system activity
+- **[Admin Dashboard](Wireframes/admin-dashboard.svg)**: Overview of system activity
 - **User Approval Screen**: Review and approve new registrations
 - **Manual Matching Interface**: Facilitate matches between students and seniors
 - **Session Monitoring Screen**: View ongoing and completed sessions
