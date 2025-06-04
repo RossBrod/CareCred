@@ -1,0 +1,110 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="70" fill="#2c3e50"/>
+  <text x="30" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">CareCred Admin Dashboard</text>
+  <circle cx="1120" cy="35" r="20" fill="#95a5a6"/>
+  <text x="1120" y="40" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">AD</text>
+  
+  <!-- Navigation -->
+  <rect x="0" y="70" width="200" height="730" fill="#34495e"/>
+  <text x="20" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Dashboard</text>
+  <text x="20" y="140" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">User Management</text>
+  <text x="20" y="170" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Session Monitor</text>
+  <text x="20" y="200" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Credit Management</text>
+  <text x="20" y="230" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Reports</text>
+  <text x="20" y="260" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Blockchain Logs</text>
+  <text x="20" y="290" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Analytics</text>
+  <text x="20" y="320" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Settings</text>
+  
+  <!-- Main Content -->
+  <!-- Overview Stats -->
+  <rect x="220" y="90" width="240" height="120" fill="white" stroke="#ecf0f1" stroke-width="1" rx="5"/>
+  <text x="240" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Total Users</text>
+  <text x="240" y="160" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#3498db">1,247</text>
+  <text x="240" y="185" font-family="Arial, sans-serif" font-size="14" fill="#27ae60">↑ 12% this month</text>
+  
+  <rect x="480" y="90" width="240" height="120" fill="white" stroke="#ecf0f1" stroke-width="1" rx="5"/>
+  <text x="500" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Active Sessions</text>
+  <text x="500" y="160" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#27ae60">18</text>
+  <text x="500" y="185" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Currently in progress</text>
+  
+  <rect x="740" y="90" width="220" height="120" fill="white" stroke="#ecf0f1" stroke-width="1" rx="5"/>
+  <text x="760" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Credits Issued</text>
+  <text x="760" y="160" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#f39c12">$42.5K</text>
+  <text x="760" y="185" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">This month</text>
+  
+  <rect x="980" y="90" width="200" height="120" fill="white" stroke="#ecf0f1" stroke-width="1" rx="5"/>
+  <text x="1000" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Pending Reviews</text>
+  <text x="1000" y="160" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#e74c3c">7</text>
+  <text x="1000" y="185" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Need attention</text>
+  
+  <!-- Pending Approvals -->
+  <rect x="220" y="230" width="580" height="280" fill="white" stroke="#ecf0f1" stroke-width="1" rx="5"/>
+  <text x="240" y="260" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Pending User Approvals</text>
+  
+  <!-- Approval Item 1 -->
+  <rect x="240" y="280" width="540" height="60" fill="#f8f9fa" rx="5"/>
+  <circle cx="270" cy="310" r="15" fill="#3498db"/>
+  <text x="270" y="315" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">JS</text>
+  <text x="300" y="300" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">John Smith (Student)</text>
+  <text x="300" y="320" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">University of California, Berkeley • Background check complete</text>
+  <rect x="640" y="295" width="60" height="25" fill="#27ae60" rx="3"/>
+  <text x="670" y="312" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Approve</text>
+  <rect x="710" y="295" width="50" height="25" fill="#e74c3c" rx="3"/>
+  <text x="735" y="312" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Reject</text>
+  
+  <!-- Approval Item 2 -->
+  <rect x="240" y="350" width="540" height="60" fill="#f8f9fa" rx="5"/>
+  <circle cx="270" cy="380" r="15" fill="#e74c3c"/>
+  <text x="270" y="385" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">MJ</text>
+  <text x="300" y="370" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Mary Johnson (Senior)</text>
+  <text x="300" y="390" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Verified address • Medical eligibility confirmed</text>
+  <rect x="640" y="365" width="60" height="25" fill="#27ae60" rx="3"/>
+  <text x="670" y="382" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Approve</text>
+  <rect x="710" y="365" width="50" height="25" fill="#e74c3c" rx="3"/>
+  <text x="735" y="382" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Reject</text>
+  
+  <!-- Approval Item 3 -->
+  <rect x="240" y="420" width="540" height="60" fill="#f8f9fa" rx="5"/>
+  <circle cx="270" cy="450" r="15" fill="#3498db"/>
+  <text x="270" y="455" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">RC</text>
+  <text x="300" y="440" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Robert Chen (Student)</text>
+  <text x="300" y="460" font-family="Arial, sans-serif" font-size="12" fill="#f39c12">Stanford University • Background check pending</text>
+  <rect x="640" y="435" width="60" height="25" fill="#95a5a6" rx="3"/>
+  <text x="670" y="452" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Pending</text>
+  
+  <!-- System Alerts -->
+  <rect x="820" y="230" width="360" height="280" fill="white" stroke="#ecf0f1" stroke-width="1" rx="5"/>
+  <text x="840" y="260" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">System Alerts</text>
+  
+  <rect x="840" y="280" width="320" height="50" fill="#ffeaa7" rx="5"/>
+  <text x="850" y="300" font-family="Arial, sans-serif" font-size="14" fill="#d63031">⚠️ Suspicious GPS activity detected</text>
+  <text x="850" y="315" font-family="Arial, sans-serif" font-size="12" fill="#2d3436">User ID: ST_1247 - Multiple locations</text>
+  
+  <rect x="840" y="340" width="320" height="50" fill="#fd79a8" rx="5"/>
+  <text x="850" y="360" font-family="Arial, sans-serif" font-size="14" fill="#2d3436">🔗 Blockchain sync delay</text>
+  <text x="850" y="375" font-family="Arial, sans-serif" font-size="12" fill="#636e72">2 sessions pending verification</text>
+  
+  <rect x="840" y="400" width="320" height="50" fill="#a29bfe" rx="5"/>
+  <text x="850" y="420" font-family="Arial, sans-serif" font-size="14" fill="#2d3436">📊 Monthly report ready</text>
+  <text x="850" y="435" font-family="Arial, sans-serif" font-size="12" fill="#636e72">March 2025 compliance report</text>
+  
+  <!-- Quick Actions -->
+  <rect x="220" y="530" width="960" height="100" fill="white" stroke="#ecf0f1" stroke-width="1" rx="5"/>
+  <text x="240" y="560" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Quick Actions</text>
+  
+  <rect x="240" y="580" width="140" height="35" fill="#3498db" rx="5"/>
+  <text x="310" y="602" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Export Report</text>
+  
+  <rect x="400" y="580" width="140" height="35" fill="#27ae60" rx="5"/>
+  <text x="470" y="602" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Process Credits</text>
+  
+  <rect x="560" y="580" width="140" height="35" fill="#f39c12" rx="5"/>
+  <text x="630" y="602" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">View Blockchain</text>
+  
+  <rect x="720" y="580" width="140" height="35" fill="#e74c3c" rx="5"/>
+  <text x="790" y="602" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">System Settings</text>
+</svg>

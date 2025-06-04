@@ -1,0 +1,118 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="70" fill="#2c3e50"/>
+  <text x="30" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">Credit Dashboard</text>
+  <circle cx="1120" cy="35" r="20" fill="#95a5a6"/>
+  <text x="1120" y="40" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">JS</text>
+  
+  <!-- Navigation -->
+  <rect x="0" y="70" width="200" height="730" fill="#34495e"/>
+  <text x="20" y="110" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Dashboard</text>
+  <text x="20" y="140" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Browse Seniors</text>
+  <text x="20" y="170" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">My Calendar</text>
+  <text x="20" y="200" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Credit History</text>
+  <text x="20" y="230" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Messages</text>
+  <text x="20" y="260" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Profile</text>
+  
+  <!-- Credit Summary Cards -->
+  <rect x="220" y="90" width="300" height="140" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  <text x="240" y="120" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Total Credits Earned</text>
+  <text x="240" y="170" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#27ae60">$1,247.50</text>
+  <text x="240" y="195" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">83 hours completed</text>
+  <text x="240" y="215" font-family="Arial, sans-serif" font-size="12" fill="#95a5a6">Since January 2025</text>
+  
+  <rect x="540" y="90" width="300" height="140" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  <text x="560" y="120" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Credits Applied</text>
+  <text x="560" y="170" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#3498db">$1,050.00</text>
+  <text x="560" y="195" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">$650 tuition • $400 housing</text>
+  <text x="560" y="215" font-family="Arial, sans-serif" font-size="12" fill="#95a5a6">Last applied: March 15</text>
+  
+  <rect x="860" y="90" width="320" height="140" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  <text x="880" y="120" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Pending Credits</text>
+  <text x="880" y="170" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#f39c12">$197.50</text>
+  <text x="880" y="195" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">3.5 hours awaiting verification</text>
+  <rect x="1040" y="205" width="120" height="20" fill="#f39c12" rx="10"/>
+  <text x="1100" y="218" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">View Details</text>
+  
+  <!-- Credit Allocation Settings -->
+  <rect x="220" y="250" width="960" height="100" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  <text x="240" y="280" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Credit Allocation Settings</text>
+  
+  <text x="240" y="310" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Future credits will be split:</text>
+  <rect x="240" y="320" width="200" height="20" fill="#ecf0f1" rx="10"/>
+  <rect x="240" y="320" width="120" height="20" fill="#3498db" rx="10"/>
+  <text x="340" y="334" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">60% Tuition</text>
+  
+  <rect x="460" y="320" width="200" height="20" fill="#ecf0f1" rx="10"/>
+  <rect x="460" y="320" width="80" height="20" fill="#e74c3c" rx="10"/>
+  <text x="500" y="334" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">40% Housing</text>
+  
+  <rect x="1000" y="315" width="150" height="30" fill="#95a5a6" rx="5"/>
+  <text x="1075" y="335" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Modify Split</text>
+  
+  <!-- Transaction History -->
+  <rect x="220" y="370" width="960" height="400" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  <text x="240" y="400" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Transaction History</text>
+  
+  <!-- Table Header -->
+  <rect x="240" y="420" width="920" height="30" fill="#ecf0f1"/>
+  <text x="260" y="440" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Date</text>
+  <text x="360" y="440" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Session Details</text>
+  <text x="580" y="440" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Duration</text>
+  <text x="680" y="440" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Credit Earned</text>
+  <text x="800" y="440" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Status</text>
+  <text x="920" y="440" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Blockchain</text>
+  
+  <!-- Transaction Row 1 -->
+  <rect x="240" y="450" width="920" height="40" fill="#f8f9fa"/>
+  <text x="260" y="475" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Mar 15, 2025</text>
+  <text x="360" y="475" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Margaret T. - Grocery shopping</text>
+  <text x="580" y="475" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">2.0 hours</text>
+  <text x="680" y="475" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27ae60">$30.00</text>
+  <circle cx="820" cy="470" r="5" fill="#27ae60"/>
+  <text x="835" y="475" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">Applied</text>
+  <text x="920" y="475" font-family="Arial, sans-serif" font-size="10" fill="#3498db">View</text>
+  
+  <!-- Transaction Row 2 -->
+  <rect x="240" y="490" width="920" height="40" fill="white"/>
+  <text x="260" y="515" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Mar 13, 2025</text>
+  <text x="360" y="515" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Robert C. - Tech support</text>
+  <text x="580" y="515" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">1.5 hours</text>
+  <text x="680" y="515" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27ae60">$22.50</text>
+  <circle cx="820" cy="510" r="5" fill="#27ae60"/>
+  <text x="835" y="515" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">Applied</text>
+  <text x="920" y="515" font-family="Arial, sans-serif" font-size="10" fill="#3498db">View</text>
+  
+  <!-- Transaction Row 3 -->
+  <rect x="240" y="530" width="920" height="40" fill="#f8f9fa"/>
+  <text x="260" y="555" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Mar 10, 2025</text>
+  <text x="360" y="555" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Helen W. - Companionship</text>
+  <text x="580" y="555" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">3.0 hours</text>
+  <text x="680" y="555" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27ae60">$45.00</text>
+  <circle cx="820" cy="550" r="5" fill="#27ae60"/>
+  <text x="835" y="555" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">Applied</text>
+  <text x="920" y="555" font-family="Arial, sans-serif" font-size="10" fill="#3498db">View</text>
+  
+  <!-- Transaction Row 4 - Pending -->
+  <rect x="240" y="570" width="920" height="40" fill="#fff3cd" stroke="#ffc107" stroke-width="1"/>
+  <text x="260" y="595" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Mar 18, 2025</text>
+  <text x="360" y="595" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Dorothy S. - Errands</text>
+  <text x="580" y="595" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">2.5 hours</text>
+  <text x="680" y="595" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f39c12">$37.50</text>
+  <circle cx="820" cy="590" r="5" fill="#f39c12"/>
+  <text x="835" y="595" font-family="Arial, sans-serif" font-size="12" fill="#f39c12">Pending</text>
+  <text x="920" y="595" font-family="Arial, sans-serif" font-size="10" fill="#3498db">View</text>
+  
+  <!-- Export Options -->
+  <rect x="240" y="700" width="920" height="50" fill="#ecf0f1"/>
+  <text x="260" y="720" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Export Options:</text>
+  <rect x="400" y="710" width="80" height="25" fill="#3498db" rx="3"/>
+  <text x="440" y="727" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">PDF Report</text>
+  <rect x="490" y="710" width="80" height="25" fill="#27ae60" rx="3"/>
+  <text x="530" y="727" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">CSV Export</text>
+  <rect x="580" y="710" width="120" height="25" fill="#f39c12" rx="3"/>
+  <text x="640" y="727" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Tax Summary</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="80" fill="#2c3e50"/>
+  <text x="60" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">CareCred</text>
+  <rect x="1000" y="25" width="80" height="30" fill="none" stroke="white" stroke-width="2" rx="5"/>
+  <text x="1030" y="45" font-family="Arial, sans-serif" font-size="14" fill="white">Login</text>
+  
+  <!-- Hero Section -->
+  <text x="600" y="200" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#2c3e50" text-anchor="middle">Connect Students with Seniors</text>
+  <text x="600" y="240" font-family="Arial, sans-serif" font-size="24" fill="#7f8c8d" text-anchor="middle">Earn tuition credits while helping seniors in your community</text>
+  
+  <!-- Registration Buttons -->
+  <rect x="350" y="300" width="200" height="60" fill="#3498db" rx="10"/>
+  <text x="450" y="340" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">Register as Student</text>
+  
+  <rect x="650" y="300" width="200" height="60" fill="#e74c3c" rx="10"/>
+  <text x="750" y="340" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">Register as Senior</text>
+  
+  <!-- Features Section -->
+  <rect x="200" y="420" width="250" height="200" fill="white" stroke="#ecf0f1" stroke-width="2" rx="10"/>
+  <circle cx="325" cy="470" r="20" fill="#3498db"/>
+  <text x="325" y="520" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">Blockchain Verified</text>
+  <text x="325" y="540" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="middle">Transparent time logging</text>
+  
+  <rect x="475" y="420" width="250" height="200" fill="white" stroke="#ecf0f1" stroke-width="2" rx="10"/>
+  <circle cx="600" cy="470" r="20" fill="#e74c3c"/>
+  <text x="600" y="520" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">GPS Verified</text>
+  <text x="600" y="540" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="middle">Location-based check-ins</text>
+  
+  <rect x="750" y="420" width="250" height="200" fill="white" stroke="#ecf0f1" stroke-width="2" rx="10"/>
+  <circle cx="875" cy="470" r="20" fill="#f39c12"/>
+  <text x="875" y="520" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">Direct Credit</text>
+  <text x="875" y="540" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="middle">Applied to tuition/housing</text>
+  
+  <!-- Footer -->
+  <rect x="0" y="720" width="1200" height="80" fill="#34495e"/>
+  <text x="600" y="765" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">© 2025 CareCred - Connecting Communities Through Service</text>
+</svg>

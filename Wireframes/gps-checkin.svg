@@ -1,0 +1,49 @@
+<svg width="400" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mobile Background -->
+  <rect width="400" height="700" fill="#f8f9fa" rx="20"/>
+  
+  <!-- Status Bar -->
+  <rect x="0" y="0" width="400" height="40" fill="#2c3e50" rx="20 20 0 0"/>
+  <text x="20" y="25" font-family="Arial, sans-serif" font-size="12" fill="white">9:41 AM</text>
+  <text x="350" y="25" font-family="Arial, sans-serif" font-size="12" fill="white">100%</text>
+  
+  <!-- Header -->
+  <rect x="0" y="40" width="400" height="60" fill="#3498db"/>
+  <text x="50" y="75" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Session Check-in</text>
+  <text x="20" y="75" font-family="Arial, sans-serif" font-size="16" fill="white">←</text>
+  
+  <!-- Session Info -->
+  <rect x="20" y="120" width="360" height="100" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  <circle cx="60" cy="150" r="20" fill="#e74c3c"/>
+  <text x="60" y="155" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">MT</text>
+  <text x="100" y="145" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Margaret Thompson</text>
+  <text x="100" y="165" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Today, 2:00 PM - 4:00 PM</text>
+  <text x="100" y="185" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Grocery shopping & companionship</text>
+  <text x="100" y="205" font-family="Arial, sans-serif" font-size="12" fill="#95a5a6">📍 123 Oak Street, Apartment 4B</text>
+  
+  <!-- Map Placeholder -->
+  <rect x="20" y="240" width="360" height="200" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="10"/>
+  <circle cx="200" cy="340" r="30" fill="#e74c3c" opacity="0.8"/>
+  <circle cx="200" cy="340" r="15" fill="#e74c3c"/>
+  <text x="200" y="290" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d" text-anchor="middle">Your location</text>
+  <text x="200" y="310" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d" text-anchor="middle">📍</text>
+  <text x="200" y="400" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">Distance: 15 feet</text>
+  <text x="200" y="420" font-family="Arial, sans-serif" font-size="12" fill="#27ae60" text-anchor="middle">✓ Location verified</text>
+  
+  <!-- Verification Status -->
+  <rect x="20" y="460" width="360" height="80" fill="white" stroke="#27ae60" stroke-width="2" rx="10"/>
+  <circle cx="60" cy="490" r="15" fill="#27ae60"/>
+  <text x="60" y="495" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">✓</text>
+  <text x="90" y="485" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#27ae60">Location Verified</text>
+  <text x="90" y="505" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">You are at the correct address</text>
+  <text x="90" y="525" font-family="Arial, sans-serif" font-size="12" fill="#95a5a6">GPS accuracy: ±5 meters</text>
+  
+  <!-- Check-in Button -->
+  <rect x="40" y="560" width="320" height="60" fill="#27ae60" rx="30"/>
+  <text x="200" y="600" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">Check In & Start Session</text>
+  
+  <!-- Safety Info -->
+  <rect x="20" y="640" width="360" height="40" fill="#f39c12" opacity="0.1" rx="5"/>
+  <text x="200" y="655" font-family="Arial, sans-serif" font-size="12" fill="#f39c12" text-anchor="middle">⚠️ Your check-in will be recorded on the blockchain</text>
+  <text x="200" y="670" font-family="Arial, sans-serif" font-size="10" fill="#f39c12" text-anchor="middle">This creates a permanent, verifiable record of your session</text>
+</svg>

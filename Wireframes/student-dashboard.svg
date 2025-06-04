@@ -1,0 +1,84 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="70" fill="#2c3e50"/>
+  <text x="30" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">CareCred Student Dashboard</text>
+  <circle cx="1120" cy="35" r="20" fill="#95a5a6"/>
+  <text x="1120" y="40" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">JS</text>
+  
+  <!-- Navigation -->
+  <rect x="0" y="70" width="200" height="730" fill="#34495e"/>
+  <text x="20" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Dashboard</text>
+  <text x="20" y="140" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Browse Seniors</text>
+  <text x="20" y="170" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">My Calendar</text>
+  <text x="20" y="200" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Credit History</text>
+  <text x="20" y="230" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Messages</text>
+  <text x="20" y="260" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">Profile</text>
+  
+  <!-- Main Content -->
+  <!-- Welcome Section -->
+  <rect x="220" y="90" width="960" height="100" fill="white" stroke="#ecf0f1" stroke-width="1" rx="5"/>
+  <text x="240" y="120" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">Welcome back, John!</text>
+  <text x="240" y="145" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">You've earned $337.50 in credits this month</text>
+  <rect x="1050" y="110" width="100" height="40" fill="#3498db" rx="5"/>
+  <text x="1100" y="135" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Find Help</text>
+  
+  <!-- Stats Cards -->
+  <rect x="220" y="210" width="230" height="120" fill="white" stroke="#ecf0f1" stroke-width="1" rx="5"/>
+  <text x="240" y="240" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Total Credits Earned</text>
+  <text x="240" y="280" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#27ae60">$1,247.50</text>
+  <text x="240" y="305" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">83 hours completed</text>
+  
+  <rect x="470" y="210" width="230" height="120" fill="white" stroke="#ecf0f1" stroke-width="1" rx="5"/>
+  <text x="490" y="240" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">This Week</text>
+  <text x="490" y="280" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#3498db">$180.00</text>
+  <text x="490" y="305" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">12 hours scheduled</text>
+  
+  <rect x="720" y="210" width="230" height="120" fill="white" stroke="#ecf0f1" stroke-width="1" rx="5"/>
+  <text x="740" y="240" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Rating</text>
+  <text x="740" y="280" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#f39c12">4.8 ★</text>
+  <text x="740" y="305" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Based on 23 reviews</text>
+  
+  <rect x="970" y="210" width="210" height="120" fill="white" stroke="#ecf0f1" stroke-width="1" rx="5"/>
+  <text x="990" y="240" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Pending Hours</text>
+  <text x="990" y="280" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#e74c3c">3.5</text>
+  <text x="990" y="305" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Awaiting verification</text>
+  
+  <!-- Upcoming Sessions -->
+  <rect x="220" y="350" width="580" height="420" fill="white" stroke="#ecf0f1" stroke-width="1" rx="5"/>
+  <text x="240" y="380" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Upcoming Sessions</text>
+  
+  <!-- Session 1 -->
+  <rect x="240" y="400" width="540" height="80" fill="#ecf0f1" rx="5"/>
+  <circle cx="270" cy="440" r="15" fill="#3498db"/>
+  <text x="300" y="425" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Margaret Thompson</text>
+  <text x="300" y="445" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Today, 2:00 PM - 4:00 PM</text>
+  <text x="300" y="460" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Grocery shopping & companionship</text>
+  <rect x="680" y="425" width="80" height="30" fill="#27ae60" rx="3"/>
+  <text x="720" y="445" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Check In</text>
+  
+  <!-- Session 2 -->
+  <rect x="240" y="490" width="540" height="80" fill="#f8f9fa" rx="5"/>
+  <circle cx="270" cy="530" r="15" fill="#95a5a6"/>
+  <text x="300" y="515" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Robert Chen</text>
+  <text x="300" y="535" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Tomorrow, 10:00 AM - 12:00 PM</text>
+  <text x="300" y="550" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Technology help & computer setup</text>
+  <rect x="680" y="515" width="80" height="30" fill="#95a5a6" rx="3"/>
+  <text x="720" y="535" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Scheduled</text>
+  
+  <!-- Recent Activity -->
+  <rect x="820" y="350" width="360" height="420" fill="white" stroke="#ecf0f1" stroke-width="1" rx="5"/>
+  <text x="840" y="380" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Recent Activity</text>
+  
+  <rect x="840" y="400" width="320" height="60" fill="#f8f9fa" rx="3"/>
+  <text x="850" y="420" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Session completed with Helen</text>
+  <text x="850" y="440" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">2 hours • $30.00 earned</text>
+  <text x="850" y="455" font-family="Arial, sans-serif" font-size="11" fill="#95a5a6">2 hours ago</text>
+  
+  <rect x="840" y="470" width="320" height="60" fill="#f8f9fa" rx="3"/>
+  <text x="850" y="490" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">New message from Robert</text>
+  <text x="850" y="510" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Confirmed tomorrow's session</text>
+  <text x="850" y="525" font-family="Arial, sans-serif" font-size="11" fill="#95a5a6">4 hours ago</text>
+</svg>
