@@ -5,7 +5,8 @@
       "Bash(xmllint:*)",
       "Bash(grep:*)",
       "Bash(python3:*)",
-      "Bash(sed:*)"
+      "Bash(sed:*)",
+      "Bash(cp:*)"
     ],
     "deny": []
   }

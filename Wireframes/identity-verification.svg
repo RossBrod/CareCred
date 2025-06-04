@@ -1,0 +1,70 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="70" fill="#2c3e50"/>
+  <text x="30" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">Identity Verification</text>
+  <text x="1050" y="40" font-family="Arial, sans-serif" font-size="14" fill="#95a5a6">Step 2 of 3</text>
+  
+  <!-- Progress Bar -->
+  <rect x="200" y="90" width="800" height="10" fill="#ecf0f1" rx="5"/>
+  <rect x="200" y="90" width="533" height="10" fill="#3498db" rx="5"/>
+  
+  <!-- Main Content -->
+  <rect x="200" y="130" width="800" height="620" fill="white" stroke="#ecf0f1" stroke-width="1" rx="15"/>
+  
+  <!-- Header -->
+  <text x="600" y="180" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50" text-anchor="middle">Verify Your Identity</text>
+  <text x="600" y="210" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d" text-anchor="middle">To ensure safety for all users, we need to verify your identity</text>
+  
+  <!-- Student ID Upload Section -->
+  <rect x="240" y="250" width="340" height="200" fill="#f8f9fa" stroke="#3498db" stroke-width="2" stroke-dasharray="5,5" rx="10"/>
+  <text x="410" y="280" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3498db" text-anchor="middle">📄 Upload Student ID</text>
+  <text x="410" y="305" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="middle">Front &amp; back of your student ID card</text>
+  
+  <!-- Upload placeholder -->
+  <rect x="260" y="320" width="300" height="100" fill="white" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="410" y="365" font-family="Arial, sans-serif" font-size="12" fill="#95a5a6" text-anchor="middle">Drag &amp; drop files here or</text>
+  <rect x="360" y="375" width="100" height="25" fill="#3498db" rx="12"/>
+  <text x="410" y="392" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Choose Files</text>
+  
+  <text x="410" y="440" font-family="Arial, sans-serif" font-size="11" fill="#95a5a6" text-anchor="middle">Accepted formats: JPG, PNG, PDF (Max 5MB)</text>
+  
+  <!-- Government ID Section -->
+  <rect x="620" y="250" width="340" height="200" fill="#f8f9fa" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,5" rx="10"/>
+  <text x="790" y="280" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e74c3c" text-anchor="middle">🆔 Government ID</text>
+  <text x="790" y="305" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="middle">Driver's license, passport, or state ID</text>
+  
+  <!-- Upload placeholder -->
+  <rect x="640" y="320" width="300" height="100" fill="white" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="790" y="365" font-family="Arial, sans-serif" font-size="12" fill="#95a5a6" text-anchor="middle">Drag &amp; drop files here or</text>
+  <rect x="740" y="375" width="100" height="25" fill="#e74c3c" rx="12"/>
+  <text x="790" y="392" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Choose Files</text>
+  
+  <text x="790" y="440" font-family="Arial, sans-serif" font-size="11" fill="#95a5a6" text-anchor="middle">Accepted formats: JPG, PNG, PDF (Max 5MB)</text>
+  
+  <!-- Background Check Section -->
+  <rect x="240" y="480" width="720" height="120" fill="#fff3cd" stroke="#ffc107" stroke-width="1" rx="10"/>
+  <text x="600" y="510" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#856404" text-anchor="middle">🔍 Background Check Authorization</text>
+  
+  <rect x="260" y="525" width="15" height="15" fill="#ffc107"/>
+  <text x="260" y="534" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">✓</text>
+  <text x="285" y="537" font-family="Arial, sans-serif" font-size="14" fill="#856404">I authorize CareCred to conduct a background check</text>
+  
+  <text x="600" y="560" font-family="Arial, sans-serif" font-size="12" fill="#856404" text-anchor="middle">This includes criminal history, sex offender registry, &amp; motor vehicle records</text>
+  <text x="600" y="580" font-family="Arial, sans-serif" font-size="11" fill="#856404" text-anchor="middle">Background checks are processed by our trusted partner Checkr &amp; typically complete within 24 hours</text>
+  
+  <!-- Privacy Notice -->
+  <rect x="240" y="620" width="720" height="80" fill="#e8f5e8" stroke="#27ae60" stroke-width="1" rx="10"/>
+  <text x="600" y="645" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#155724" text-anchor="middle">🔒 Your Privacy is Protected</text>
+  <text x="600" y="665" font-family="Arial, sans-serif" font-size="12" fill="#155724" text-anchor="middle">All uploaded documents are encrypted &amp; stored securely. We never share your</text>
+  <text x="600" y="680" font-family="Arial, sans-serif" font-size="12" fill="#155724" text-anchor="middle">personal information with third parties beyond what's required for verification.</text>
+  
+  <!-- Action Buttons -->
+  <rect x="400" y="720" width="120" height="35" fill="#95a5a6" rx="18"/>
+  <text x="460" y="742" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Back</text>
+  
+  <rect x="540" y="720" width="160" height="35" fill="#27ae60" rx="18"/>
+  <text x="620" y="742" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Submit for Review</text>
+</svg>

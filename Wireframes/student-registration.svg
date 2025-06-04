@@ -1,0 +1,93 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="80" fill="#3498db"/>
+  <text x="60" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">CareCred - Student Registration</text>
+  
+  <!-- Main Form Container -->
+  <rect x="300" y="120" width="600" height="640" fill="white" stroke="#ecf0f1" stroke-width="1" rx="15"/>
+  
+  <!-- Form Header -->
+  <text x="600" y="170" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2c3e50" text-anchor="middle">Join as a Student</text>
+  <text x="600" y="200" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d" text-anchor="middle">Earn credits by helping seniors in your community</text>
+  
+  <!-- Personal Information Section -->
+  <text x="330" y="240" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Personal Information</text>
+  
+  <!-- First Name -->
+  <text x="330" y="270" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">First Name *</text>
+  <rect x="330" y="275" width="240" height="35" fill="white" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="340" y="297" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">John</text>
+  
+  <!-- Last Name -->
+  <text x="590" y="270" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Last Name *</text>
+  <rect x="590" y="275" width="240" height="35" fill="white" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="600" y="297" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Smith</text>
+  
+  <!-- Email -->
+  <text x="330" y="330" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Email Address *</text>
+  <rect x="330" y="335" width="500" height="35" fill="white" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="340" y="357" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">john.smith@berkeley.edu</text>
+  
+  <!-- Phone -->
+  <text x="330" y="390" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Phone Number *</text>
+  <rect x="330" y="395" width="240" height="35" fill="white" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="340" y="417" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">(555) 123-4567</text>
+  
+  <!-- Date of Birth -->
+  <text x="590" y="390" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Date of Birth *</text>
+  <rect x="590" y="395" width="240" height="35" fill="white" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="600" y="417" font-family="Arial, sans-serif" font-size="14" fill="#95a5a6">MM/DD/YYYY</text>
+  
+  <!-- University Information -->
+  <text x="330" y="460" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">University Information</text>
+  
+  <!-- University -->
+  <text x="330" y="490" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">University/College *</text>
+  <rect x="330" y="495" width="500" height="35" fill="white" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="340" y="517" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">University of California, Berkeley</text>
+  
+  <!-- Student ID -->
+  <text x="330" y="550" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Student ID *</text>
+  <rect x="330" y="555" width="240" height="35" fill="white" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="340" y="577" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">12345678</text>
+  
+  <!-- Major -->
+  <text x="590" y="550" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Major/Field of Study *</text>
+  <rect x="590" y="555" width="240" height="35" fill="white" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="600" y="577" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Computer Science</text>
+  
+  <!-- Skills Section -->
+  <text x="330" y="620" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Skills &amp; Availability</text>
+  
+  <!-- Skills Checkboxes -->
+  <rect x="330" y="640" width="15" height="15" fill="#3498db"/>
+  <text x="330" y="649" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">✓</text>
+  <text x="355" y="652" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Technology Support</text>
+  
+  <rect x="500" y="640" width="15" height="15" fill="#3498db"/>
+  <text x="500" y="649" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">✓</text>
+  <text x="525" y="652" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Grocery Shopping</text>
+  
+  <rect x="330" y="665" width="15" height="15" fill="white" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="355" y="677" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Transportation</text>
+  
+  <rect x="500" y="665" width="15" height="15" fill="#3498db"/>
+  <text x="500" y="674" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">✓</text>
+  <text x="525" y="677" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Companionship</text>
+  
+  <!-- Terms Checkbox -->
+  <rect x="330" y="710" width="15" height="15" fill="#3498db"/>
+  <text x="330" y="719" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">✓</text>
+  <text x="355" y="722" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">I agree to the Terms of Service &amp; Privacy Policy</text>
+  
+  <!-- Register Button -->
+  <rect x="450" y="740" width="200" height="45" fill="#3498db" rx="25"/>
+  <text x="550" y="767" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Create Account</text>
+  
+  <!-- Login Link -->
+  <text x="600" y="730" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="middle">Already have an account?</text>
+  <text x="680" y="730" font-family="Arial, sans-serif" font-size="12" fill="#3498db">Sign In</text>
+</svg>

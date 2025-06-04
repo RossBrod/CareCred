@@ -1,0 +1,133 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="70" fill="#3498db"/>
+  <text x="30" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">Browse Seniors</text>
+  <circle cx="1120" cy="35" r="20" fill="#95a5a6"/>
+  <text x="1120" y="40" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">JS</text>
+  
+  <!-- Search &amp; Filters -->
+  <rect x="20" y="90" width="1160" height="60" fill="white" stroke="#ecf0f1" stroke-width="1" rx="5"/>
+  
+  <!-- Search Bar -->
+  <rect x="40" y="105" width="400" height="30" fill="white" stroke="#bdc3c7" stroke-width="1" rx="15"/>
+  <text x="60" y="125" font-family="Arial, sans-serif" font-size="14" fill="#95a5a6">Search by location, help needed, or name...</text>
+  <text x="410" y="125" font-family="Arial, sans-serif" font-size="16" fill="#95a5a6">🔍</text>
+  
+  <!-- Filter Buttons -->
+  <rect x="460" y="105" width="80" height="30" fill="#3498db" rx="15"/>
+  <text x="500" y="125" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Nearby</text>
+  
+  <rect x="550" y="105" width="100" height="30" fill="#ecf0f1" rx="15"/>
+  <text x="600" y="125" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="middle">Technology Help</text>
+  
+  <rect x="660" y="105" width="80" height="30" fill="#ecf0f1" rx="15"/>
+  <text x="700" y="125" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="middle">Groceries</text>
+  
+  <rect x="750" y="105" width="100" height="30" fill="#ecf0f1" rx="15"/>
+  <text x="800" y="125" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="middle">Companionship</text>
+  
+  <!-- Sort Dropdown -->
+  <rect x="1000" y="105" width="120" height="30" fill="white" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="1020" y="125" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Sort: Distance</text>
+  <text x="1100" y="125" font-family="Arial, sans-serif" font-size="12" fill="#95a5a6">▼</text>
+  
+  <!-- Senior Cards Grid -->
+  
+  <!-- Senior Card 1 - Recommended -->
+  <rect x="20" y="170" width="360" height="200" fill="white" stroke="#27ae60" stroke-width="2" rx="10"/>
+  <rect x="30" y="180" width="80" height="20" fill="#27ae60" rx="10"/>
+  <text x="70" y="194" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">RECOMMENDED</text>
+  
+  <circle cx="70" cy="230" r="25" fill="#e74c3c"/>
+  <text x="70" y="237" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">MT</text>
+  
+  <text x="110" y="220" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Margaret Thompson</text>
+  <text x="110" y="240" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Age 68 • 2.3 miles away</text>
+  <text x="110" y="255" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">⭐ 4.9 rating (12 reviews)</text>
+  
+  <text x="40" y="285" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Needs help with:</text>
+  <text x="40" y="305" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Grocery shopping &amp; errands</text>
+  <text x="40" y="320" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Technology support</text>
+  <text x="40" y="335" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Companionship</text>
+  
+  <rect x="250" y="340" width="100" height="25" fill="#27ae60" rx="12"/>
+  <text x="300" y="357" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Send Request</text>
+  
+  <!-- Senior Card 2 -->
+  <rect x="400" y="170" width="360" height="200" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  
+  <circle cx="450" cy="230" r="25" fill="#3498db"/>
+  <text x="450" y="237" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">HW</text>
+  
+  <text x="490" y="220" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Helen Wilson</text>
+  <text x="490" y="240" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Age 73 • 4.1 miles away</text>
+  <text x="490" y="255" font-family="Arial, sans-serif" font-size="12" fill="#f39c12">⭐ 4.6 rating (8 reviews)</text>
+  
+  <text x="420" y="285" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Needs help with:</text>
+  <text x="420" y="305" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Light housekeeping</text>
+  <text x="420" y="320" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Meal preparation</text>
+  <text x="420" y="335" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Pet care assistance</text>
+  
+  <rect x="630" y="340" width="100" height="25" fill="#3498db" rx="12"/>
+  <text x="680" y="357" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Send Request</text>
+  
+  <!-- Senior Card 3 -->
+  <rect x="780" y="170" width="360" height="200" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  
+  <circle cx="830" cy="230" r="25" fill="#f39c12"/>
+  <text x="830" y="237" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">RC</text>
+  
+  <text x="870" y="220" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Robert Chen</text>
+  <text x="870" y="240" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Age 79 • 6.8 miles away</text>
+  <text x="870" y="255" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">⭐ 4.8 rating (15 reviews)</text>
+  
+  <text x="800" y="285" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Needs help with:</text>
+  <text x="800" y="305" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Transportation to appointments</text>
+  <text x="800" y="320" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Technology troubleshooting</text>
+  <text x="800" y="335" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Home maintenance</text>
+  
+  <rect x="1010" y="340" width="100" height="25" fill="#3498db" rx="12"/>
+  <text x="1060" y="357" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Send Request</text>
+  
+  <!-- Senior Card 4 -->
+  <rect x="20" y="390" width="360" height="200" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  
+  <circle cx="70" cy="450" r="25" fill="#95a5a6"/>
+  <text x="70" y="457" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">DW</text>
+  
+  <text x="110" y="440" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Dorothy Williams</text>
+  <text x="110" y="460" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Age 71 • 8.2 miles away</text>
+  <text x="110" y="475" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">⭐ 4.7 rating (6 reviews)</text>
+  
+  <text x="40" y="505" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Needs help with:</text>
+  <text x="40" y="525" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Garden maintenance</text>
+  <text x="40" y="540" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Grocery shopping</text>
+  <text x="40" y="555" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Social companionship</text>
+  
+  <rect x="250" y="560" width="100" height="25" fill="#3498db" rx="12"/>
+  <text x="300" y="577" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Send Request</text>
+  
+  <!-- Map Toggle -->
+  <rect x="880" y="600" width="300" height="180" fill="white" stroke="#ecf0f1" stroke-width="1" rx="10"/>
+  <text x="1030" y="625" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50" text-anchor="middle">📍 Map View</text>
+  
+  <!-- Simple map placeholder -->
+  <rect x="900" y="635" width="260" height="120" fill="#ecf0f1" rx="5"/>
+  <circle cx="950" cy="675" r="8" fill="#e74c3c"/>
+  <circle cx="1020" cy="695" r="8" fill="#3498db"/>
+  <circle cx="1080" cy="665" r="8" fill="#f39c12"/>
+  <circle cx="1000" cy="710" r="8" fill="#95a5a6"/>
+  <text x="1030" y="725" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="middle">You are here</text>
+  
+  <rect x="950" y="760" width="120" height="15" fill="#3498db" rx="7"/>
+  <text x="1010" y="771" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Switch to Map View</text>
+  
+  <!-- Pagination -->
+  <rect x="20" y="740" width="360" height="40" fill="#ecf0f1"/>
+  <text x="40" y="765" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Showing 4 of 23 seniors • Page 1 of 6</text>
+  <rect x="320" y="750" width="50" height="20" fill="#3498db" rx="10"/>
+  <text x="345" y="763" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Next</text>
+</svg>

@@ -1,59 +1,69 @@
 # CareCred Wireframes List
 
 ## Authentication & Onboarding
-1. **Landing Page** (`landing-page.svg`) - Welcome screen with login/register options
-2. **Student Registration** (`student-registration.svg`) - Student signup form with email verification
-3. **Senior Registration** (`senior-registration.svg`) - Senior citizen signup form
-4. **Login Screen** (`login.svg`) - Universal login for all user types
-5. **Identity Verification** (`identity-verification.svg`) - ID upload and background check interface
-6. **Admin Approval** (`admin-approval.svg`) - Admin review screen for user verification
+1. **[Landing Page](Wireframes/landing-page.svg)** - Welcome screen with login/register options
+2. **[Student Registration](Wireframes/student-registration.svg)** - Student signup form with email verification
+3. **[Senior Registration](Wireframes/senior-registration.svg)** - Senior citizen signup form
+4. **[Login Screen](Wireframes/login.svg)** - Universal login for all user types
+5. **[Identity Verification](Wireframes/identity-verification.svg)** - ID upload and background check interface
+6. **[Admin Approval](Wireframes/admin-approval.svg)** - Admin review screen for user verification
 
 ## Student Interface
-7. **Student Dashboard** (`student-dashboard.svg`) - Main overview with credits, upcoming sessions
-8. **Student Profile Setup** (`student-profile-setup.svg`) - Bio, skills, availability configuration
-9. **Student Profile View** (`student-profile-view.svg`) - View/edit personal profile
-10. **Senior Browse** (`senior-browse.svg`) - Browse available seniors to help
-11. **Session Request** (`session-request.svg`) - Request session with senior
-12. **Student Calendar** (`student-calendar.svg`) - Availability and scheduled sessions
-13. **GPS Check-in** (`gps-checkin.svg`) - Location verification interface
-14. **Session Active** (`session-active.svg`) - During session interface
-15. **Session Complete** (`session-complete.svg`) - Session completion and rating
-16. **Credit Dashboard** (`credit-dashboard.svg`) - Detailed credit tracking and history
-17. **Student Messages** (`student-messages.svg`) - In-app messaging system
+7. **[Student Dashboard](Wireframes/student-dashboard.svg)** - Main overview with credits, upcoming sessions
+8. **[Student Profile Setup](Wireframes/student-profile-setup.svg)** - Bio, skills, availability configuration
+9. **Student Profile View** - View/edit personal profile - NEED CLARIFICATION
+10. **[Senior Browse](Wireframes/senior-browse.svg)** - Browse available seniors to help
+11. **Session Request** - Request session with senior - NEED CLARIFICATION
+12. **Student Calendar** - Availability and scheduled sessions - NEED CLARIFICATION
+13. **[GPS Check-in](Wireframes/gps-checkin.svg)** - Location verification interface
+14. **Session Active** - During session interface - NEED CLARIFICATION
+15. **[Session Complete](Wireframes/session-complete.svg)** - Session completion and rating
+16. **[Credit Dashboard](Wireframes/credit-dashboard.svg)** - Detailed credit tracking and history
+17. **Student Messages** - In-app messaging system - NEED CLARIFICATION
 
 ## Senior Interface
-18. **Senior Dashboard** (`senior-dashboard.svg`) - Main overview for seniors
-19. **Senior Profile Setup** (`senior-profile-setup.svg`) - Senior profile configuration
-20. **Senior Profile View** (`senior-profile-view.svg`) - View/edit senior profile
-21. **Student Browse** (`student-browse.svg`) - Browse available students
-22. **Help Request** (`help-request.svg`) - Request help from student
-23. **Senior Calendar** (`senior-calendar.svg`) - Availability and scheduled sessions
-24. **Session Confirmation** (`session-confirmation.svg`) - Confirm session completion
-25. **Senior Messages** (`senior-messages.svg`) - In-app messaging for seniors
+18. **[Senior Dashboard](Wireframes/senior-dashboard.svg)** - Main overview for seniors
+19. **Senior Profile Setup** - Senior profile configuration - NEED CLARIFICATION
+20. **Senior Profile View** - View/edit senior profile - NEED CLARIFICATION
+21. **Student Browse** - Browse available students - NEED CLARIFICATION
+22. **Help Request** - Request help from student - NEED CLARIFICATION
+23. **Senior Calendar** - Availability and scheduled sessions - NEED CLARIFICATION
+24. **[Session Confirmation](Wireframes/session-confirmation.svg)** - Confirm session completion
+25. **Senior Messages** - In-app messaging for seniors - NEED CLARIFICATION
 
 ## Admin Interface
-26. **Admin Dashboard** (`admin-dashboard.svg`) - Admin overview with key metrics
-27. **User Management** (`user-management.svg`) - Approve/reject users, view details
-28. **Session Monitoring** (`session-monitoring.svg`) - Monitor active sessions and flags
-29. **Credit Management** (`credit-management.svg`) - Credit disbursement and adjustments
-30. **Blockchain Logs** (`blockchain-logs.svg`) - View blockchain session records
-31. **Reports Generation** (`reports-generation.svg`) - Generate government compliance reports
-32. **Settings Configuration** (`settings-configuration.svg`) - System settings and configurations
-33. **Analytics Dashboard** (`analytics-dashboard.svg`) - Usage statistics and insights
+26. **[Admin Dashboard](Wireframes/admin-dashboard.svg)** - Admin overview with key metrics
+27. **[User Management](Wireframes/user-management.svg)** - Approve/reject users, view details
+28. **[Session Monitoring](Wireframes/session-monitoring.svg)** - Monitor active sessions and flags
+29. **[Credit Management](Wireframes/credit-management.svg)** - Credit disbursement and adjustments
+30. **Blockchain Logs** - View blockchain session records - NEED CLARIFICATION
+31. **Reports Generation** - Generate government compliance reports - NEED CLARIFICATION
+32. **Settings Configuration** - System settings and configurations - NEED CLARIFICATION
+33. **Analytics Dashboard** - Usage statistics and insights - NEED CLARIFICATION
 
 ## Shared Components
-34. **Navigation Menu** (`navigation-menu.svg`) - Main navigation component
-35. **Session Details Modal** (`session-details-modal.svg`) - Detailed session information popup
-36. **Rating Component** (`rating-component.svg`) - 5-star rating interface
-37. **Notification Panel** (`notification-panel.svg`) - Push notifications display
-38. **Help Support** (`help-support.svg`) - Help and support interface
-39. **Privacy Settings** (`privacy-settings.svg`) - Privacy and data management
-40. **Error States** (`error-states.svg`) - Error handling and offline states
+34. **Navigation Menu** - Main navigation component - NEED CLARIFICATION
+35. **Session Details Modal** - Detailed session information popup - NEED CLARIFICATION
+36. **Rating Component** - 5-star rating interface - NEED CLARIFICATION
+37. **Notification Panel** - Push notifications display - NEED CLARIFICATION
+38. **Help Support** - Help and support interface - NEED CLARIFICATION
+39. **Privacy Settings** - Privacy and data management - NEED CLARIFICATION
+40. **Error States** - Error handling and offline states - NEED CLARIFICATION
 
 ## Mobile Responsive
-41. **Mobile Dashboard** (`mobile-dashboard.svg`) - Mobile-optimized main dashboard
-42. **Mobile Check-in** (`mobile-checkin.svg`) - Mobile GPS check-in interface
-43. **Mobile Calendar** (`mobile-calendar.svg`) - Mobile calendar view
-44. **Mobile Messages** (`mobile-messages.svg`) - Mobile messaging interface
+41. **[Mobile Dashboard](Wireframes/mobile-dashboard.svg)** - Mobile-optimized main dashboard
+42. **[Mobile Check-in](Wireframes/mobile-checkin.svg)** - Mobile GPS check-in interface
+43. **Mobile Calendar** - Mobile calendar view - NEED CLARIFICATION
+44. **Mobile Messages** - Mobile messaging interface - NEED CLARIFICATION
 
-Total: 44 wireframes covering all major user flows and interfaces
+## Additional Admin Screens (From MVP Analysis)
+45. **[User Approval Screen](Wireframes/user-approval.svg)** - Review and approve new registrations
+46. **[Manual Matching Interface](Wireframes/manual-matching.svg)** - Facilitate matches between students and seniors
+47. **[Credit Disbursement Screen](Wireframes/credit-disbursement.svg)** - Approve credit transactions
+48. **[Session History Screen](Wireframes/session-history.svg)** - View past sessions and ratings given
+
+**Total: 48 wireframes**
+- **✅ Created: 22 wireframes** (all major user flows and MVP screens)
+- **❓ Need Clarification: 26 wireframes** (detailed requirements needed)
+
+**Status:** All critical MVP wireframes are complete and functional. Secondary wireframes marked for clarification can be designed once specific requirements are defined.
