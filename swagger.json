@@ -1,0 +1,554 @@
+{
+  "openapi": "3.0.2",
+  "info": {
+    "title": "CareCred API",
+    "description": "CareCred is a platform connecting college students with seniors to provide various services in exchange for educational credits.\n\n## Features\n\n* **User Management**: Registration and authentication for students, seniors, and admins\n* **Session Management**: Request, schedule, and manage help sessions with GPS verification\n* **Credit System**: Earn and disburse educational credits with blockchain verification\n* **Messaging**: Secure communication between users with emergency alert system\n* **Institution Integration**: Direct disbursement to educational institutions\n* **Real-time Monitoring**: Session tracking and anomaly detection\n\n## Authentication\n\nMost endpoints require authentication via JWT tokens. Include the token in the Authorization header:\n```\nAuthorization: Bearer <your_jwt_token>\n```",
+    "version": "1.0.0",
+    "contact": {
+      "name": "CareCred Support",
+      "email": "support@carecred.com"
+    },
+    "license": {
+      "name": "Proprietary"
+    }
+  },
+  "servers": [
+    {
+      "url": "/",
+      "description": "Default server"
+    }
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "tags": ["System"],
+        "summary": "Root endpoint with API information",
+        "operationId": "root__get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {"type": "string"},
+                    "version": {"type": "string"},
+                    "docs": {"type": "string"},
+                    "health": {"type": "string"}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/health": {
+      "get": {
+        "tags": ["System"],
+        "summary": "System health check endpoint",
+        "operationId": "health_check_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {"type": "string"},
+                    "timestamp": {"type": "number"},
+                    "version": {"type": "string"}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/public/health": {
+      "get": {
+        "tags": ["Public"],
+        "summary": "Public health check",
+        "description": "Public health check endpoint that doesn't require authentication",
+        "operationId": "public_health_check",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {"$ref": "#/components/schemas/APIResponse"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/register/student": {
+      "post": {
+        "tags": ["Authentication"],
+        "summary": "Register new student",
+        "description": "Register a new student account with university verification",
+        "operationId": "register_student",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {"$ref": "#/components/schemas/StudentRegistrationRequest"}
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {"$ref": "#/components/schemas/APIResponse"}
+              }
+            }
+          },
+          "400": {"description": "Bad Request"},
+          "500": {"description": "Internal Server Error"}
+        }
+      }
+    },
+    "/api/v1/auth/register/senior": {
+      "post": {
+        "tags": ["Authentication"],
+        "summary": "Register new senior",
+        "description": "Register a new senior account requiring admin approval",
+        "operationId": "register_senior",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {"$ref": "#/components/schemas/SeniorRegistrationRequest"}
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {"$ref": "#/components/schemas/APIResponse"}
+              }
+            }
+          },
+          "400": {"description": "Bad Request"},
+          "500": {"description": "Internal Server Error"}
+        }
+      }
+    },
+    "/api/v1/auth/register/admin": {
+      "post": {
+        "tags": ["Authentication"],
+        "summary": "Register new admin",
+        "description": "Register a new admin account (super admin only)",
+        "operationId": "register_admin",
+        "security": [{"HTTPBearer": []}],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {"$ref": "#/components/schemas/AdminRegistrationRequest"}
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {"$ref": "#/components/schemas/APIResponse"}
+              }
+            }
+          },
+          "400": {"description": "Bad Request"},
+          "403": {"description": "Forbidden"},
+          "500": {"description": "Internal Server Error"}
+        }
+      }
+    },
+    "/api/v1/auth/login": {
+      "post": {
+        "tags": ["Authentication"],
+        "summary": "User login",
+        "description": "Authenticate user and return JWT tokens",
+        "operationId": "login",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {"$ref": "#/components/schemas/LoginRequest"}
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {"$ref": "#/components/schemas/LoginResponse"}
+              }
+            }
+          },
+          "401": {"description": "Unauthorized"},
+          "500": {"description": "Internal Server Error"}
+        }
+      }
+    },
+    "/api/v1/auth/logout": {
+      "post": {
+        "tags": ["Authentication"],
+        "summary": "User logout",
+        "description": "Invalidate user session and tokens",
+        "operationId": "logout",
+        "security": [{"HTTPBearer": []}],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {"$ref": "#/components/schemas/APIResponse"}
+              }
+            }
+          },
+          "401": {"description": "Unauthorized"},
+          "500": {"description": "Internal Server Error"}
+        }
+      }
+    },
+    "/api/v1/auth/refresh": {
+      "post": {
+        "tags": ["Authentication"],
+        "summary": "Refresh access token",
+        "description": "Get new access token using refresh token",
+        "operationId": "refresh_token",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {"$ref": "#/components/schemas/RefreshTokenRequest"}
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {"$ref": "#/components/schemas/LoginResponse"}
+              }
+            }
+          },
+          "401": {"description": "Unauthorized"},
+          "500": {"description": "Internal Server Error"}
+        }
+      }
+    },
+    "/api/v1/users/me": {
+      "get": {
+        "tags": ["Users"],
+        "summary": "Get current user profile",
+        "description": "Get detailed profile information for the current authenticated user",
+        "operationId": "get_current_user_profile",
+        "security": [{"HTTPBearer": []}],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {"$ref": "#/components/schemas/UserResponse"}
+              }
+            }
+          },
+          "401": {"description": "Unauthorized"}
+        }
+      },
+      "put": {
+        "tags": ["Users"],
+        "summary": "Update current user profile",
+        "description": "Update profile information for the current authenticated user",
+        "operationId": "update_current_user_profile",
+        "security": [{"HTTPBearer": []}],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {"$ref": "#/components/schemas/UserProfileUpdate"}
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {"$ref": "#/components/schemas/APIResponse"}
+              }
+            }
+          },
+          "400": {"description": "Bad Request"},
+          "401": {"description": "Unauthorized"},
+          "500": {"description": "Internal Server Error"}
+        }
+      }
+    },
+    "/api/v1/users/search/students": {
+      "get": {
+        "tags": ["Users"],
+        "summary": "Search students",
+        "description": "Search and filter students (for seniors and admins)",
+        "operationId": "search_students",
+        "security": [{"HTTPBearer": []}],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {"type": "integer", "default": 1}
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {"type": "integer", "default": 20}
+          },
+          {
+            "name": "university",
+            "in": "query",
+            "schema": {"type": "string"}
+          },
+          {
+            "name": "skills",
+            "in": "query",
+            "schema": {"type": "string"}
+          },
+          {
+            "name": "has_transportation",
+            "in": "query",
+            "schema": {"type": "boolean"}
+          },
+          {
+            "name": "max_distance",
+            "in": "query",
+            "schema": {"type": "number"}
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {"$ref": "#/components/schemas/PaginatedResponse"}
+              }
+            }
+          },
+          "403": {"description": "Forbidden"},
+          "500": {"description": "Internal Server Error"}
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "APIResponse": {
+        "title": "APIResponse",
+        "type": "object",
+        "properties": {
+          "success": {"type": "boolean", "default": true},
+          "message": {"type": "string"},
+          "timestamp": {"type": "string", "format": "date-time"}
+        },
+        "required": ["success"]
+      },
+      "PaginatedResponse": {
+        "title": "PaginatedResponse",
+        "type": "object",
+        "properties": {
+          "items": {"type": "array", "items": {}},
+          "total": {"type": "integer"},
+          "page": {"type": "integer"},
+          "limit": {"type": "integer"},
+          "has_next": {"type": "boolean"},
+          "has_prev": {"type": "boolean"}
+        },
+        "required": ["items", "total", "page", "limit", "has_next", "has_prev"]
+      },
+      "LoginRequest": {
+        "title": "LoginRequest",
+        "type": "object",
+        "properties": {
+          "email": {"type": "string", "format": "email"},
+          "password": {"type": "string", "minLength": 8}
+        },
+        "required": ["email", "password"]
+      },
+      "LoginResponse": {
+        "title": "LoginResponse",
+        "type": "object",
+        "properties": {
+          "access_token": {"type": "string"},
+          "refresh_token": {"type": "string"},
+          "token_type": {"type": "string", "default": "bearer"},
+          "expires_in": {"type": "integer"},
+          "user_id": {"type": "string"},
+          "user_type": {"$ref": "#/components/schemas/UserType"}
+        },
+        "required": ["access_token", "refresh_token", "expires_in", "user_id", "user_type"]
+      },
+      "RefreshTokenRequest": {
+        "title": "RefreshTokenRequest",
+        "type": "object",
+        "properties": {
+          "refresh_token": {"type": "string"}
+        },
+        "required": ["refresh_token"]
+      },
+      "StudentRegistrationRequest": {
+        "title": "StudentRegistrationRequest",
+        "type": "object",
+        "properties": {
+          "email": {"type": "string", "format": "email"},
+          "password": {"type": "string", "minLength": 8},
+          "first_name": {"type": "string", "minLength": 1, "maxLength": 50},
+          "last_name": {"type": "string", "minLength": 1, "maxLength": 50},
+          "phone": {"type": "string"},
+          "university": {"type": "string", "minLength": 1, "maxLength": 100},
+          "student_id": {"type": "string", "minLength": 1, "maxLength": 50},
+          "major": {"type": "string", "minLength": 1, "maxLength": 100},
+          "graduation_year": {"type": "integer", "minimum": 2020, "maximum": 2035},
+          "bio": {"type": "string", "maxLength": 500},
+          "skills": {"type": "array", "items": {"type": "string"}, "default": []},
+          "has_transportation": {"type": "boolean", "default": false},
+          "max_travel_distance": {"type": "number", "minimum": 0.0, "maximum": 100.0, "default": 0.0}
+        },
+        "required": ["email", "password", "first_name", "last_name", "university", "student_id", "major", "graduation_year"]
+      },
+      "SeniorRegistrationRequest": {
+        "title": "SeniorRegistrationRequest",
+        "type": "object",
+        "properties": {
+          "email": {"type": "string", "format": "email"},
+          "password": {"type": "string", "minLength": 8},
+          "first_name": {"type": "string", "minLength": 1, "maxLength": 50},
+          "last_name": {"type": "string", "minLength": 1, "maxLength": 50},
+          "phone": {"type": "string"},
+          "age": {"type": "integer", "minimum": 55, "maximum": 120},
+          "address": {"type": "string", "minLength": 1, "maxLength": 200},
+          "city": {"type": "string", "minLength": 1, "maxLength": 100},
+          "state": {"type": "string", "minLength": 2, "maxLength": 50},
+          "zip_code": {"type": "string", "pattern": "^\\d{5}(-\\d{4})?$"},
+          "emergency_contact_name": {"type": "string", "minLength": 1, "maxLength": 100},
+          "emergency_contact_phone": {"type": "string", "pattern": "^\\+?1?\\d{9,15}$"},
+          "help_needed": {"type": "array", "items": {"type": "string"}, "default": []},
+          "mobility_notes": {"type": "string", "maxLength": 500},
+          "medical_notes": {"type": "string", "maxLength": 500}
+        },
+        "required": ["email", "password", "first_name", "last_name", "age", "address", "city", "state", "zip_code", "emergency_contact_name", "emergency_contact_phone"]
+      },
+      "AdminRegistrationRequest": {
+        "title": "AdminRegistrationRequest",
+        "type": "object",
+        "properties": {
+          "email": {"type": "string", "format": "email"},
+          "password": {"type": "string", "minLength": 8},
+          "first_name": {"type": "string", "minLength": 1, "maxLength": 50},
+          "last_name": {"type": "string", "minLength": 1, "maxLength": 50},
+          "admin_role": {"$ref": "#/components/schemas/AdminRole"},
+          "employee_id": {"type": "string", "minLength": 1, "maxLength": 50},
+          "department": {"type": "string", "maxLength": 100},
+          "permissions": {"type": "array", "items": {"type": "string"}, "default": []}
+        },
+        "required": ["email", "password", "first_name", "last_name", "admin_role", "employee_id"]
+      },
+      "UserProfileUpdate": {
+        "title": "UserProfileUpdate",
+        "type": "object",
+        "properties": {
+          "first_name": {"type": "string", "minLength": 1, "maxLength": 50},
+          "last_name": {"type": "string", "minLength": 1, "maxLength": 50},
+          "phone": {"type": "string"},
+          "profile_photo_url": {"type": "string"}
+        }
+      },
+      "UserResponse": {
+        "title": "UserResponse",
+        "type": "object",
+        "properties": {
+          "user_id": {"type": "string"},
+          "email": {"type": "string"},
+          "first_name": {"type": "string"},
+          "last_name": {"type": "string"},
+          "user_type": {"$ref": "#/components/schemas/UserType"},
+          "status": {"$ref": "#/components/schemas/UserStatus"},
+          "created_at": {"type": "string", "format": "date-time"},
+          "last_login": {"type": "string", "format": "date-time"},
+          "rating": {"type": "number"},
+          "total_reviews": {"type": "integer"}
+        },
+        "required": ["user_id", "email", "first_name", "last_name", "user_type", "status", "created_at", "rating", "total_reviews"]
+      },
+      "UserType": {
+        "title": "UserType",
+        "enum": ["STUDENT", "SENIOR", "ADMIN"],
+        "type": "string"
+      },
+      "UserStatus": {
+        "title": "UserStatus",
+        "enum": ["PENDING", "ACTIVE", "SUSPENDED", "DEACTIVATED"],
+        "type": "string"
+      },
+      "AdminRole": {
+        "title": "AdminRole",
+        "enum": ["SUPER_ADMIN", "PLATFORM_ADMIN", "CUSTOMER_SERVICE", "FINANCIAL_ADMIN"],
+        "type": "string"
+      }
+    },
+    "securitySchemes": {
+      "HTTPBearer": {
+        "type": "http",
+        "scheme": "bearer"
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "System",
+      "description": "System health and information endpoints"
+    },
+    {
+      "name": "Public",
+      "description": "Public endpoints that don't require authentication"
+    },
+    {
+      "name": "Authentication",
+      "description": "User authentication and registration endpoints"
+    },
+    {
+      "name": "Users",
+      "description": "User profile management and search endpoints"
+    },
+    {
+      "name": "Sessions",
+      "description": "Help session management and scheduling endpoints"
+    },
+    {
+      "name": "Credits",
+      "description": "Credit system and disbursement management endpoints"
+    },
+    {
+      "name": "Messaging",
+      "description": "User communication and notification endpoints"
+    },
+    {
+      "name": "Administration",
+      "description": "Administrative functions and reporting endpoints"
+    },
+    {
+      "name": "Blockchain",
+      "description": "Blockchain verification and auditing endpoints"
+    }
+  ]
+}
