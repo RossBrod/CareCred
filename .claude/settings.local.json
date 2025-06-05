@@ -6,7 +6,14 @@
       "Bash(grep:*)",
       "Bash(python3:*)",
       "Bash(sed:*)",
-      "Bash(cp:*)"
+      "Bash(cp:*)",
+      "Bash(find:*)",
+      "Bash(python:*)",
+      "Bash(pip3 install:*)",
+      "Bash(apt:*)",
+      "Bash(apt install:*)",
+      "Bash(sudo apt:*)",
+      "Bash(sudo apt install:*)"
     ],
     "deny": []
   }

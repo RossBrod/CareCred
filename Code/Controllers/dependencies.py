@@ -10,9 +10,16 @@ from ..Services.authentication_service import AuthenticationService, Authorizati
 # Security scheme
 security = HTTPBearer()
 
-# Mock services - replace with actual service instances
-auth_service = None  # AuthenticationService instance
-authorization_service = None  # AuthorizationService instance
+# Service instances - these would be properly injected in a real application
+def get_auth_service() -> AuthenticationService:
+    return AuthenticationService()
+
+def get_authorization_service() -> AuthorizationService:
+    return AuthorizationService()
+
+# Initialize services
+auth_service = get_auth_service()
+authorization_service = get_authorization_service()
 
 class AuthDependencies:
     """Authentication and authorization dependencies"""
@@ -232,7 +239,7 @@ def get_pagination():
 
 def require_permissions(*permissions: str):
     """Dependency factory for multiple permission requirements"""
-    def dependency(
+    async def dependency(
         current_user: BaseUser = Depends(AuthDependencies.get_current_active_user)
     ) -> BaseUser:
         if not authorization_service:
@@ -250,3 +257,6 @@ def require_permissions(*permissions: str):
         return current_user
     
     return Depends(dependency)
+
+# Export convenience functions for easy import
+get_current_user = AuthDependencies.get_current_user
