@@ -3,8 +3,8 @@
 CareCred is an innovative platform connecting college students with senior citizens to provide assistance in exchange for tuition and housing credits. The platform leverages blockchain technology for transparent time logging and offers a comprehensive solution for student financial support while addressing senior care needs.
 
 ## Table of Contents
-- [Business executive summary](ExecutiveSummaryBusinessSide.md) Business executive summary with cost, GTM and ROI
-- [User Journey](UserJourney.md) - Complete user experience flows for students, seniors, and administrators based on Banya conversation on 05/31/2025
+
+- [User Journey](UserJourney.md) -**MAIN IDEA** Complete user experience flows for students, seniors, and administrators based on Banya conversation on 05/31/2025
 - [MVP Analysis](MVPAnaysis.md) - Minimum viable product definition and phased implementation strategy
 - [Services Architecture](Services.md) - Core technical services and system modules
 - [Credit Tracking](CreditTrackingSpecification.md) - Hour-to-credit conversion and tracking system
@@ -19,6 +19,9 @@ CareCred is an innovative platform connecting college students with senior citiz
 - [All Wireframes needed](WireframesList.md) - All compontents
 ### Delivery Time Estimate (of human 1 overseer)
 - [Time Estimates](TimeEstimate.md) - AI-driven development timeline and human management requirements
+
+## P.S. 
+- [Business executive summary](ExecutiveSummaryBusinessSide.md) Business executive summary with various Cost **CAG, GTM and ROI** All AI generated but consistent with base price theory
 
 ## Core Value Proposition
 
