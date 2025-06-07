@@ -11,8 +11,9 @@ CareCred is an innovative platform connecting college students with senior citiz
 - [Scheduling System](SchedulingSystemSpecification.md) - Availability management and session coordination
 - [Blockchain Logging](BlockchainTimeLoggingSpecification.md) - Immutable session verification on Solana blockchain
 - [Payment Allocation](PaymentAllocationSpecification.md) - Government payment processing and student disbursement
-- [Security Measures](PotentialCheatingMethodsMitigations.md) - Anti-fraud protections and system integrity
+- [Security and Anti-fraud Measures](PotentialCheatingMethodsMitigations.md) - Anti-fraud protections and system integrity
 - [Admin Reporting](AdminReporting.md) - Government compliance and reimbursement reporting
+
 ### Wireframes:
 - [Wireframes. Partial](Screens-VS-Services.md) - Some of the screens generated that AI had No Questions on functionality
 ### Total Wireframes list
